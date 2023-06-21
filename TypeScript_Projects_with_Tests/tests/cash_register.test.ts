@@ -132,5 +132,5 @@ describe("cash_register function", ()=>{
             ]
         });
     });
-})
+});
 

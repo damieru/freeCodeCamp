@@ -51,7 +51,6 @@ export default function checkCashRegister(price: number, cash: number, cid: Mone
   
     if (change < changeDue)
     {
-      console.log(change, changeDue)
       cashRegister.status = "INSUFFICIENT_FUNDS";
       cashRegister.change = [];
       return cashRegister;
